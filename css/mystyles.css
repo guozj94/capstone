@@ -1,0 +1,17 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: 3;
+}
+.navbar > * {
+	float: left;
+	display: block;
+}
+.navbar a {
+	color: white;
+	text-decoration: underline;
+	padding: 14px 16px;
+	text-align: center;
+}
