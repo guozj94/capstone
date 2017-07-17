@@ -18,7 +18,7 @@ class Iphone {
   }
 }
 class PaymentSlider {
-  constructor(props, amount) {
+  constructor(props, minimum, full) {
     this.self = props;
     this.ball = props.getElementsByClassName("slidingball")[0];
     this.slider = props.getElementsByClassName("slidingbar")[0];
@@ -29,8 +29,13 @@ class PaymentSlider {
     this.ball.addEventListener("dragover", (event) => {event.preventDefault();}, false);
     this.left = 220; //position in the css
     this.position = 0; //last event position
-    this.amount = amount;
-    this.slider.getElementsByClassName("slider-moneytag")[0].innerHTML = '$' + amount;
+    this.amount = full - minimum;
+    this.full = full;
+    this.minimum = minimum;
+    this.youpay = props.getElementsByTagName("input")[0];
+    //console.log(this.youpay);
+    this.youpay.addEventListener("keyup", (event) => {this.handleKeyPress(event)}, false);
+    this.slider.getElementsByClassName("slider-moneytag")[0].innerHTML = '$' + full;
   }
   handleDragStart(event) {
     //console.log("drag start");
@@ -49,13 +54,27 @@ class PaymentSlider {
     else if(this.left < 20) {this.left = 20; return;}
     this.slider.style.left = this.left + 'px';
     this.position = event.clientX;
-    this.slider.getElementsByClassName("slider-moneytag")[0].innerHTML = '$' + parseInt(this.amount * (this.left - 20) / 200);
+    this.slider.getElementsByClassName("slider-moneytag")[0].innerHTML = '$' + parseInt((this.full - this.minimum) * (this.left - 20) / 200 + this.minimum);
     this.slider.getElementsByClassName("slider-percentage")[0].innerHTML = parseInt((this.left - 20) / 2) + '%';
+    //change slider color
+    document.styleSheets[0].addRule('.sliding:after', 'width: '+parseInt((this.left - 20) / 2)+'%;');
+    //change input text
+    this.youpay.value = parseInt((this.full - this.minimum) * (this.left - 20) / 200 + this.minimum);
   }
   handleDragEnd(event) {
     //console.log("onrelease");
     event.preventDefault();
     this.position = 0;
+  }
+  handleKeyPress(event) {
+    let inputNum = event.target.value;
+    if(inputNum < this.minimum || inputNum > this.full) return;
+    let percentage = (inputNum - this.minimum) * 1.0 / (this.full - this.minimum);
+    console.log(percentage);
+    this.slider.style.left = 20 + percentage * 200 + 'px';
+    this.slider.getElementsByClassName("slider-moneytag")[0].innerHTML = '$' + parseInt(inputNum);
+    this.slider.getElementsByClassName("slider-percentage")[0].innerHTML = parseInt(percentage * 100) + '%';
+    document.styleSheets[0].addRule('.sliding:after', 'width: '+parseInt(percentage * 100)+'%;');
   }
 }
 class QuizDrag {
@@ -69,7 +88,7 @@ class QuizDrag {
     this.answersPositions = [];
     this.answers = props.getElementsByClassName("answerspot");
     this.result = props.getElementsByClassName("result")[0];
-    for(var i = 0; i < this.choices.length; i++) {
+    for(let i = 0; i < this.choices.length; i++) {
       //this.choices[i].addEventListener("click", (event) => {this.handleClick(event);}, false);
       this.choices[i].addEventListener("dragstart", (event) => {this.handleDragStart(event)}, false);
       this.choices[i].addEventListener("drag", (event) => {this.handleDrag(event)}, false);
@@ -81,7 +100,7 @@ class QuizDrag {
   }
   handleClick(event) {
     if(event.target.src == "quiz-questionmark.png") return;
-    for(var i = 0; i < this.choices.length; i++) {
+    for(let i = 0; i < this.choices.length; i++) {
       if(this.choices[i].src == event.target.src) {
         event.target.src = "quiz-questionmark.png";
         event.target.dataset.is_answer = "no";
@@ -91,22 +110,24 @@ class QuizDrag {
     }
   }
   handleDragStart(event) {
+    //get all items positions dynamically
     this.choicesPositions = [];
     this.answersPositions = [];
-    for(var j = 0; j < this.answers.length; j++) {
+    for(let j = 0; j < this.answers.length; j++) {
       this.choicePositions.push({left: this.choices[j].getBoundingClientRect().left, top: this.choices[j].getBoundingClientRect().top});
       this.answersPositions.push({left: this.answers[j].getBoundingClientRect().left, top: this.answers[j].getBoundingClientRect().top});
-      console.log(this.answersPositions[j]);
+      //console.log(this.answersPositions[j]);
     }
 
   }
+  //handle event.client == {0, 0}
   handleDrag(event) {
     if(event.clientX == 0 || event.clientY == 0) return;
-    console.log(event.clientX, event.clientY);
+    //console.log(event.clientX, event.clientY);
   }
   handleDragEnd(event) {
     event.preventDefault();
-    for(var i = 0; i < this.answersPositions.length; i++) {
+    for(let i = 0; i < this.answersPositions.length; i++) {
       // if drag ends in answer area
       if(this.answersPositions[i].left < event.clientX && 
          this.answersPositions[i].left + 126 > event.clientX &&
@@ -121,9 +142,11 @@ class QuizDrag {
         event.target.style.visibility = "hidden";
       }
     }
-    for(var j = 0; j < this.choices.length; j++) {
+    //see if all choices are selected
+    for(let j = 0; j < this.choices.length; j++) {
       if(this.choices[j].dataset.is_selected == "no") return;
     }
+    //see if the answer is correct
     if(this.answers[this.answers.length - 1].dataset.is_answer == "yes") {
       this.result.innerHTML = "Correct";
     }
@@ -148,14 +171,14 @@ $(document).ready(() => {
   // });
  
   // $(window).resize();
-  var s1 = document.getElementsByClassName("phone-screen")[0];
-  var s2 = document.getElementsByClassName("slider")[0];
-  var s3 = document.getElementsByClassName("quiz")[0];
+  const s1 = document.getElementsByClassName("phone-screen")[0];
+  const s2 = document.getElementsByClassName("slider")[0];
+  const s3 = document.getElementsByClassName("quiz")[0];
   console.log(s1);
   console.log(s2);
-  var iphone = new Iphone(s1);
-  var slider = new PaymentSlider(s2, 100);
-  var quiz = new QuizDrag(s3, [], null);
+  const iphone = new Iphone(s1);
+  const slider = new PaymentSlider(s2, 15, 100);
+  const quiz = new QuizDrag(s3, [], null);
   iphone.changeText();
 
 });
