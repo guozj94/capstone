@@ -11,7 +11,7 @@
 }
 .navbar a {
 	color: white;
-	text-decoration: underline;
 	padding: 14px 16px;
 	text-align: center;
+	font-weight: 100;
 }
