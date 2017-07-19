@@ -237,7 +237,7 @@ h1 {
             transform: translate(-50%, -50%); }
   #preloader .txt-perc {
     font-size: 35px;
-    font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-family: 'Lato', Helvetica, Helvetica Neue, Arial, sans-serif;
     opacity: 1;
     margin: 0 0 6px 0;
     max-width: 400px;
@@ -290,10 +290,10 @@ h1 {
   z-index: 1;
   opacity: 0.5; }
   .header-container .bcg {
-    background-image: url(../img/comingsoon.png);
+    background-image: url(../img/cover.jpg);
     background-size: cover; }
   #slide01 .bcg {
-    background: url(../img/img_mountains02.jpg) no-repeat center center;
+    background: url(../img/whatis.png) no-repeat center center;
     background-size: cover; }
   #slide02 .bcg {
     background: url(../img/img_mountains03.jpg) no-repeat center center;
@@ -486,7 +486,7 @@ p {
    ========================================================================== */
 @media only screen and (min-width: 768px) {
   body {
-    font-weight: 100; }
+    font-weight: 300; }
   h1 {
     font-size: 3em; }
   p {
@@ -514,7 +514,7 @@ p {
     overflow: hidden;
     overflow-x: hidden; }
     .slide section {
-      max-width: 400px; }
+      max-width: 600px; }
     .slide .wrapper {
       padding-top: 120px;
       position: absolute;
