@@ -1,0 +1,16 @@
+#to-payment4 {
+	position: absolute;
+    width: 227px;
+    height: 28px;
+    top: 335px;
+    left: 35px;
+    z-index: 100;
+}
+#to-payment4-mom {
+	position: absolute;
+	width: 226px;
+	height: 28px;
+	z-index: 10;
+	left: 35px;
+	top: 363px;
+}

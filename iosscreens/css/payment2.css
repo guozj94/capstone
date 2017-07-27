@@ -1,0 +1,65 @@
+#payment2-dynamic {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	height: 465px;
+	width: 295px;
+	z-index: 3;
+}
+#payment2-dynamic img:nth-child(1) {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 4;
+}
+.teen-loading {
+	position: absolute;
+	bottom: 288px;
+	left: 163px;
+	z-index: 10;
+	-webkit-animation: rotation 1.5s infinite ease-in-out;
+	animation: rotation 1.5s infinite ease-in-out;
+	transform-origin: 37px 37px;
+}
+#payment2-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	opacity: 1;
+	transition: opacity 1s ease-in-out;
+}
+#to-payment2-mom {
+	width: 283px;
+	height: 89px;
+	position: absolute;
+	left: 6px;
+	top: 160px;
+	z-index: 10;
+}
+#to-payment3-mom {
+	position: absolute;
+	width: 226px;
+	height: 28px;
+	z-index: 10;
+	left: 35px;
+	top: 363px;
+}
+.mom-loading {
+	position: absolute;
+	bottom: 271px;
+	left: 164px;
+	z-index: 10;
+	-webkit-animation: rotation 1.5s infinite ease-in-out;
+	animation: rotation 1.5s infinite ease-in-out;
+	transform-origin: 37px 37px;
+}
+/*keyframes*/
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}

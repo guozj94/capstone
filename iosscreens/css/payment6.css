@@ -1,0 +1,33 @@
+#payment6-check {
+	position: absolute;
+	left: 33px;
+	top: 341px;
+}
+#to-payment7 {
+	position: absolute;
+	left: 35px;
+	top: 473px;
+}
+#payment6-text {
+	font-family: "Lato";
+	font-weight: 300;
+	position: absolute;
+    left: 40px;
+    top: 370px;
+    font-size: 10px;
+    width: 230px;
+}
+#payment6-amount1 {
+	position: absolute;
+    left: 105px;
+    top: 125px;
+    font-size: 28px;
+    color: #4a4a4a;
+}
+#payment6-amount2 {
+	position: absolute;
+    left: 205px;
+    top: 188px;
+    font-size: 14px;
+    color: #4a4a4a;
+}

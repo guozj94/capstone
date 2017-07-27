@@ -1,0 +1,128 @@
+#payment5-box {
+	position: absolute;
+	top: 150px;
+	right: 0;
+}
+.slider {
+	position: absolute;
+    top: 192px;
+    width: 200px;
+    left: 74px;
+}
+.sliding {
+	z-index: 11;
+	position: absolute;
+	margin: 0 auto;
+	top: 40px;
+	left: 0;
+	width: 142px;
+	height: 6px;
+	border-radius: 6px;
+	background-color: #80bcea;
+}
+.sliding-bg {
+	z-index: 10;
+	position: absolute;
+	margin: 0 auto;
+	top: 40px;
+	left: 0;
+	width: 142px;
+	height: 6px;
+	border-radius: 6px;
+	background-color: #d8d8d8;
+}
+/*.sliding:after {
+	content: '';
+	z-index: 11;
+	position: absolute;
+	width: 100%;
+	background-color: #80bcea;
+	height: 100%;
+	border-radius: 6px;
+}*/
+.slidingbar {
+	z-index: 12;
+    position: absolute;
+    top: 35px;
+    left: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slidingball {
+	/*z-index: 12;
+	position: absolute;
+	top: 35px;*/
+	width: 16px;
+	height: 16px;
+	/*left: 80px;*/
+	background-color: #80bcea;
+	border-radius: 8px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.26);
+}
+.slider-moneytag {
+	background-color: #ffc049;
+	border-radius: 3px;
+	width: 51px;
+	height: 25px;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.slider-percentage {
+	margin-top: 5px;
+}
+.youll-pay {
+	position: absolute;
+	top: 60px;
+	left: 15px;
+}
+.youll-pay > * {
+	display: inline-block;
+}
+.youll-pay input {
+	border: none;
+	border-bottom: 1px solid gray;
+	outline: none;
+  	box-shadow: none;
+  	width: 40px;
+}
+.youll-pay input:focus {
+	border: none;
+	border-bottom: 1px solid gray;
+	box-shadow: none;
+	outline: none;
+}
+#payment5-badgood {
+	position: absolute;
+	top: 100px;
+	left: -47px;
+}
+#payment5-badgood span {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.hurt-active {
+	font-weight: 700;
+	color: #f6511d;
+}
+.nothing-active {
+	font-weight: 700;
+	color: #4a4a4a;
+}
+.good-active {
+	font-weight: 700;
+	color: #47ceb0;
+}
+#payment5-slider img {
+	position: absolute;
+    top: 187px;
+    left: 105px;
+}
+#to-payment6 {
+	position: absolute;
+    left: 38px;
+    top: 473px;
+    width: 221px;
+    height: 29px;
+}

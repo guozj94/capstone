@@ -1,0 +1,126 @@
+* {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+    
+h1 {
+	font-size: 3em;
+    font-size: 2em;
+    margin-top: 0;
+    font-family: 'Lato', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+p {
+	color: black;
+}
+.nodisplay {
+	display: none;
+}
+.hiddendisplay {
+	visibility: hidden;
+}
+#header img {
+	margin-top: 15px;
+	margin-left: 2em;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: 3;
+	height: 50px;
+	background-color: rgba(255,255,255,0.6);
+	align-items: center;
+}
+.navbar > * {
+	float: left;
+	display: block;
+	line-height: 50px;
+}
+.navbar img {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.navbar a {
+	color: black;
+	padding: 0;
+	margin-left: 30px;
+	text-align: center;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 16px;
+}
+#intro {
+	top: 0;
+}
+.main .fullscreen {
+	margin: 0;
+}
+#cutter1 {
+	background: url("../../images/cutter1.jpg");
+	background-size: cover;
+	height: 140px;
+	width: 100%;
+}
+.index-one {
+	justify-content: center;
+	align-items: flex-start;
+}
+.one-content {
+	margin-top: 12vh;
+	text-align: center;
+	justify-content: center;
+}
+.one-p {
+	margin: 0 auto; 
+	width: 70%;
+}
+.all-people {
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	margin: 0 4em 0 4em;
+}
+.people {
+	width: 20%;
+}
+.people-name {
+	margin-top: 1em;
+	margin-bottom: 0em;
+}
+.people-title {
+	margin-top: 0em;
+	margin-bottom: 1em;
+	font-size: 14px;
+	font-weight: 400;
+}
+.people-desc {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/*begin product page*/
+
+@media screen and (max-width: 768px) {
+	/*about us page*/
+	.all-people {
+		display: block;
+		align-items: center;
+	}
+	.people {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	/*index page*/
+	.one-p {
+		width: 100%;
+	}
+	.one-content {
+		margin-top: 2vh;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	/*process page*/
+}

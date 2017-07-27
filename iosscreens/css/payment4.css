@@ -1,0 +1,109 @@
+#payment4 {
+	overflow: scroll;
+}
+#payment4:-webkit-scrollbar { 
+    display: none; 
+}
+#payment4-box {
+	position: absolute;
+	top: 150px;
+	right: 0;
+}
+#to-payment5 {
+	position: absolute;
+	width: 227px;
+	height: 28px;
+    top: 720px;
+    left: 32px;
+}
+#payment4-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10001;
+	opacity: 0.3;
+}
+#statement-quiz {
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 295px;
+    height: 390px;
+    z-index: 10002;
+}
+#quiz-bg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10002
+}
+#teen-statusbar-hover {
+	z-index: 10003;
+	opacity: 0.3;
+	border: none;
+}
+.answers img:nth-child(1) {
+	position: absolute;
+	z-index: 10004;
+	left: 10px;
+	top: 50px;
+}
+.answers img:nth-child(2) {
+	position: absolute;
+	z-index: 10004;
+	right: 10px;
+    top: 50px;
+}
+.answers img:nth-child(3) {
+	position: absolute;
+	z-index: 10004;
+	left: 90px;
+    top: 105px;
+}
+.items img:nth-child(1) {
+	position: absolute;
+	z-index: 10004;
+	left: 15px;
+    top: 185px;
+}
+.items img:nth-child(2) {
+	position: absolute;
+	z-index: 10004;
+	left: 154px;
+    top: 185px;
+}
+.items img:nth-child(3) {
+	position: absolute;
+	z-index: 10004;
+	left: 82px;
+    top: 247px;
+}
+#quiz-done {
+	position: absolute;
+    top: 340px;
+    left: 36px;
+    z-index: 10004;
+}
+#quiz-result {
+	position: absolute;
+	left: 74px;
+	top: 190px;
+	z-index: 10004; 
+}
+.box-animation {
+	animation: myzoombox 2s infinite ease-in-out;
+}
+@keyframes myzoombox {
+	0% {
+		width: 36px;
+		/*transform: scale(1, 1);*/
+	}
+	40%  {
+		width: 45px;
+		/*transform: scale(1.2, 1.2);*/
+	}
+	80% {
+		width: 36px;
+		/*transform: scale(1, 1);*/
+	}
+}

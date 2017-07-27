@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>payment3-c copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="1.84749681%" y2="1.84749681%" id="linearGradient-1">
+            <stop stop-color="#FC9000" stop-opacity="0.868404665" offset="0%"></stop>
+            <stop stop-color="#FFC13A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="payment3-c-copy-2">
+            <rect id="Rectangle-8" fill="url(#linearGradient-1)" x="0" y="0" width="375" height="667"></rect>
+            <g id="app-name" transform="translate(150.000000, 34.000000)" font-size="25" font-family="LilyScriptOne-Regular, Lily Script One" fill="#FFFFFF" font-weight="normal">
+                <text id="Ohana">
+                    <tspan x="0" y="24">Ohana</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

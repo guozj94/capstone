@@ -1,0 +1,24 @@
+#payment7-amount1 {
+	position: absolute;
+    left: 195px;
+    top: 170px;
+    font-size: 14px;
+}
+#payment7-amount2 {
+	position: absolute;
+    left: 195px;
+    top: 192px;
+    font-size: 14px;
+}
+#to-payment8 {
+	position: absolute;
+	left: 35px;
+	top: 473px;
+	width: 262px;
+	height: 30px;
+}
+#payment7-reward {
+	position: absolute;
+	left: 56px;
+    top: 315px;
+}
