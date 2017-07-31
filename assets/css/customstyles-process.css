@@ -144,6 +144,31 @@ p {
 .gallery article:hover {
 	cursor: pointer;
 }
+.ohana-levels {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.ohana-levels p {
+	color: black;
+	line-height: 150%;
+	text-align: center;
+}
+.ohana-levels div {
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 1em;
+	border: 4px solid #ffc049;
+}
+/*.ohana-levels div:nth-child(1) {
+	margin-top: 100px;
+}
+.ohana-levels div:nth-child(2) {
+	margin-top: 50px;
+}
+.ohana-levels div:nth-child(3) {
+	margin-top: 0px;
+}*/
 .seven-half-content {
 	display: flex;
 	flex-direction: row;
@@ -167,19 +192,22 @@ box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
 	margin-left: 1.5em;
 }
 #three {
-	background: url("../../images/process-4.JPG");
+	background: url("../../images/process-4.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom center;
 	background-repeat: no-repeat;
 }
 #five {
-	background: url("../../images/process-5.JPG");
+	background: url("../../images/process-5.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom center;
 	background-repeat: no-repeat;
 }
+/*#six {
+	margin: 0 auto;
+}*/
 #seven {
 	background: url("../../images/process-7.JPG");
 	background-size: cover;
@@ -232,7 +260,24 @@ box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
 	}
 	#intro-process div {
 		width: 100%;
-	}	
+	}
+	.ohana-levels {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.ohana-levels p {
+		color: black;
+		line-height: 150%;
+		text-align: center;
+	}
+	.ohana-levels div {
+		margin-left: 1em;
+		margin-right: 1em;
+	/*padding: 1em;
+	border: 4px solid black;*/
+	}
 	.seven-half-content {
 		display: flex;
 		flex-direction: column;
