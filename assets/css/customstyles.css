@@ -101,10 +101,10 @@ p {
 	font-weight: 300;
 }
 #two {
-	background: url("../../images/ohana-journey.svg");
-	background-size: 90% auto;
+	background: url("../../images/white.jpg");
+	background-size: cover;
 	background-attachment: fixed;
-	background-position: 50% 80%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
 /*begin product page*/
