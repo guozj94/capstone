@@ -1,6 +1,34 @@
 #payment4 {
 	overflow: scroll;
 }
+#payment4-enter {
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 230px;
+}
+#payment4-retail {
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 230px;
+}
+#to-payment4-enter {
+	position: absolute;
+    z-index: 11;
+    left: 105px;
+    top: 230px;
+    width: 40px;
+    height: 40px;
+}
+#to-payment4-retail {
+	position: absolute;
+    z-index: 11;
+    left: 150px;
+    top: 230px;
+    width: 40px;
+    height: 40px;
+}
 #payment4:-webkit-scrollbar { 
     display: none; 
 }
@@ -8,12 +36,13 @@
 	position: absolute;
 	top: 150px;
 	right: 0;
+	z-index: 12;
 }
 #to-payment5 {
 	position: absolute;
 	width: 227px;
 	height: 28px;
-    top: 720px;
+    top: 800px;
     left: 32px;
 }
 #payment4-hover {
@@ -39,7 +68,7 @@
 }
 #teen-statusbar-hover {
 	z-index: 10003;
-	opacity: 0.3;
+	opacity: 0.09;
 	border: none;
 }
 .answers img:nth-child(1) {

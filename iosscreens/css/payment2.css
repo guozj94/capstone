@@ -14,7 +14,7 @@
 }
 .teen-loading {
 	position: absolute;
-	bottom: 288px;
+	bottom: 281px;
 	left: 163px;
 	z-index: 10;
 	-webkit-animation: rotation 1.5s infinite ease-in-out;
@@ -43,7 +43,7 @@
 	height: 28px;
 	z-index: 10;
 	left: 35px;
-	top: 363px;
+	top: 372px;
 }
 .mom-loading {
 	position: absolute;

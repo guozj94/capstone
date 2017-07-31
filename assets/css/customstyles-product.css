@@ -1,0 +1,220 @@
+* {
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+    
+h1 {
+	font-size: 3em;
+    font-size: 2em;
+    margin-top: 0;
+    font-family: 'Lato', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+p {
+	color: black;
+}
+.nodisplay {
+	display: none;
+}
+.hiddendisplay {
+	visibility: hidden;
+}
+#header img {
+	margin-top: 15px;
+	margin-left: 2em;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: 3;
+	height: 50px;
+	background-color: rgba(255,255,255,0.6);
+	align-items: center;
+}
+.navbar > * {
+	float: left;
+	display: block;
+	line-height: 50px;
+}
+.navbar img {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.navbar a {
+	color: black;
+	padding: 0;
+	margin-left: 30px;
+	text-align: center;
+	font-weight: 300;
+	text-decoration: none;
+	font-size: 16px;
+}
+#intro {
+	top: 0;
+}
+.main .fullscreen {
+	margin: 0;
+}
+#intro {
+	background: url("../../images/whatis.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+#one {
+	/*background: url("../../images/process-2.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;*/
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+.content-product {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+.phone-description {
+	padding-left: 2em;
+	padding-right: 1em;
+	padding-top: 2em;
+}
+.phone-description > * {
+	color: black;
+	text-align: left;
+}
+.phone-description h1 {
+	padding-bottom: 1em;
+}
+.phone-description h4 {
+	font-weight: 700;
+}
+.phone-description p {
+	font-size: 16px;
+}
+.phone-description .quotes {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.phone-container iframe {
+	transform: scale(0.9, 0.9);
+}
+.phone-description img {
+	display: block;
+	margin-bottom: 5px;
+}
+.main .button.style2 {
+    background-image: url(images/black-arrow.svg);
+}
+.button.style2 {
+    
+    border: solid 2px #000000;
+}
+.resp-static-screen {
+	display: none;
+}
+#two {
+	/*background: url("../../images/process-2.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;*/
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+.phone-container-style2 {
+	width: 50%;
+}
+.phone-description-style2 {
+	width: 50%;
+}
+#three {
+	/*background: url("../../images/process-2.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;*/
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+#four {
+	/*background: url("../../images/process-2.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;*/
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+#five {
+	/*background: url("../../images/process-2.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;*/
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 4em;
+}
+@media screen and (max-width: 768px) {
+	.resp-iframe {
+		display: none;
+	}
+	.phone-description {
+		padding-left: 1em;
+	}
+	#one {
+		padding: 2em 0 2em 0;
+	}
+	.resp-static-screen {
+		display: inherit;
+		width: 300px;
+		height: auto;
+	}
+	.content-product {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.phone-description {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.phone-description img {
+		display: inherit;
+		margin-bottom: 5px;
+	}
+	.phone-description > * {
+		text-align: center;
+	}
+	.phone-description p {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 1140px) {
+	.phone-description {
+		padding-left: 1em;
+	}
+	#one {
+		padding: 2em 0 2em 0;
+	}
+	.phone-container iframe {
+		transform: scale(0.8, 0.8);
+	}
+
+}
+
+

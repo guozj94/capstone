@@ -126,3 +126,48 @@
     width: 221px;
     height: 29px;
 }
+#teen-statusbar-hover {
+	z-index: 10003;
+	opacity: 0.09;
+	border: none;
+}
+#payment5-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10001;
+	opacity: 0.3;
+}
+#payment5-closequiz {
+	position: absolute;
+    z-index: 10005;
+    width: 242px;
+    height: 30px;
+    left: 26px;
+    top: 360px;
+}
+#payment5-quiz {
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 295px;
+    height: 415px;
+    z-index: 10002;
+}
+.box-animation {
+	animation: myzoombox 2s infinite ease-in-out;
+}
+@keyframes myzoombox {
+	0% {
+		width: 36px;
+		/*transform: scale(1, 1);*/
+	}
+	40%  {
+		width: 45px;
+		/*transform: scale(1.2, 1.2);*/
+	}
+	80% {
+		width: 36px;
+		/*transform: scale(1, 1);*/
+	}
+}

@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="A beautiful HTML & CSS built iPhone 6 mock for your website." />
-<title>MocKit - Beautiful HTML & CSS built iPhone 6 mock</title>
+<meta name="description" content="Ohana iPhone6 Mock" />
+<title>Ohana iPhone6 Mock</title>
 <link rel="stylesheet" type="text/css" href="iphonestyle.css">
 <link rel="stylesheet" type="text/css" href="css/payment1.css">
 <link rel="stylesheet" type="text/css" href="css/payment2.css">
@@ -19,6 +19,10 @@
 
 <body>
     <div class="half dark">
+        <!-- <div class="quotes">
+            <img src="screens/teen-round.png" width="85px" height="75px">
+            <img src="screens/teen-quote.svg" width="215px" height="75px">
+        </div> -->
         <div class="iphone-container">
             <div class="phone-shape small">
                 <span class="button-one buttons"></span>
@@ -55,6 +59,10 @@
                 <!-- teens review statement step 1 -->
                 <div class="phone-screen teen nodisplay" id="payment4">
                     <img src="screens/payment4.svg" width="100%">
+                    <img id="payment4-enter" src="screens/payment4-enter.svg" width="100%">
+                    <img class="nodisplay" id="payment4-retail" src="screens/payment4-retail.svg" width="100%">
+                    <div id="to-payment4-enter"></div>
+                    <div id="to-payment4-retail"></div>
                     <img class="box-animation" id="payment4-box" src="screens/lootbox.svg" width="36px">
                     <img class="nodisplay" id="payment4-hover" src="screens/payment4-hover.png" width="100%">
                     <div id="to-payment5"></div>
@@ -81,7 +89,7 @@
                 <!-- teens choose payment amount -->
                 <div class="phone-screen teen nodisplay" id="payment5">
                     <img src="screens/payment5.svg" width="100%">
-                    <img id="payment5-box" src="screens/lootbox.svg" width="36px">
+                    <img class="box-animation" id="payment5-box" src="screens/lootbox.svg" width="36px">
                     <div id="to-payment6"></div>
                     <div class="slider" id="payment5-slider">
                         <div class="sliding"></div>
@@ -91,7 +99,7 @@
                         </div>
                         <div class="youll-pay">
                             <p class="raleway12g">You will pay: $ </p>
-                            <input class="raleway14b" type="text" name="" value="47.78">
+                            <input class="raleway14b" type="text" name="" value="44.78">
                         </div>
                         <div id="payment5-badgood">
                             <span class="raleway12g" id="payment5-hurt">Not good</span>
@@ -99,7 +107,12 @@
                             <span class="raleway12g good-active" id="payment5-good">Good choice!</span>
                         </div>
                         <img src="screens/payment5-good.svg" width="22px">
-                        <input id="payment5-amount" type="hidden" name="" value="47.78">
+                        <input id="payment5-amount" type="hidden" name="" value="44.78">
+                    </div>
+                    <img class="nodisplay" id="payment5-hover" src="screens/payment4-hover.png" width="100%">
+                    <div class="quiz nodisplay animated slideInUp" id="payment5-quiz">
+                        <img id="payment5-quiz-bg" src="screens/payment5-quiz.svg" width="100%">
+                        <div id="payment5-closequiz"></div>
                     </div>
                 </div>
 
@@ -130,6 +143,10 @@
     </div>
 
     <div class="half" id="mom-half">
+        <!-- <div class="quotes">
+            <img src="screens/mom-round.png" width="85px" height="75px">
+            <img src="screens/mom-quote.svg" width="215px" height="75px">
+        </div> -->
         <div class="iphone-container">
             <div class="phone-shape small">
                 <span class="button-one buttons"></span>

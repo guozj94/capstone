@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>payment14-c</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="25" height="25" rx="5"></rect>
+        <rect id="path-2" x="0" y="0" width="25" height="25" rx="5"></rect>
+        <rect id="path-3" x="0" y="0" width="25" height="25" rx="5"></rect>
+        <rect id="path-4" x="41" y="31" width="77" height="26" rx="2"></rect>
+    </defs>
+    <g id="make-payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="payment14-c">
+            <rect id="Rectangle-2" fill="#E7E7E7" x="0" y="0" width="375" height="43"></rect>
+            <text id="Balance" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal" fill="#4A4A4A">
+                <tspan x="151.359375" y="29">Balance</tspan>
+            </text>
+            <path d="M14.4064783,19.637592 L13.1690295,20.874158 C12.9485344,21.0951948 12.9431169,21.4478785 13.1565691,21.6613307 L23.5268787,32.2115035 C23.7403309,32.4254975 24.0924728,32.4195382 24.3129678,32.1990431 L25.8309705,30.6810404 C26.0514656,30.4605454 26.0568831,30.1084034 25.8434309,29.8944095 L17.3508588,21.2540903 L25.8231143,12.4483365 C26.0349413,12.2370513 26.0295237,11.8887017 25.8111957,11.6698319 L24.3083622,10.1675402 C24.0900342,9.94921214 23.7416845,9.94325282 23.5298576,10.1556215 L14.4064783,19.637592 Z" id="Arrow" fill="#CBCBCB"></path>
+            <g id="Group-2" transform="translate(332.000000, 12.000000)">
+                <path d="M0.5,2.5 L22.5,2.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                <path d="M0.5,9.5 L22.5,9.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                <path d="M0.5,16.5 L22.5,16.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                <circle id="Oval-2" fill="#9B9B9B" cx="6.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval-2" fill="#9B9B9B" cx="6.5" cy="16.5" r="2.5"></circle>
+                <circle id="Oval-2" fill="#9B9B9B" cx="16.5" cy="9.5" r="2.5"></circle>
+            </g>
+            <text id="Payment" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#4A4A4A">
+                <tspan x="155" y="72">Payment</tspan>
+            </text>
+            <g id="Group-7" transform="translate(123.000000, 116.000000)" fill="#4A4A4A">
+                <g id="Group-8" transform="translate(15.000000, 33.000000)">
+                    <text id="$" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold">
+                        <tspan x="0.437988281" y="40">$</tspan>
+                    </text>
+                    <text id="42" font-family="OpenSans, Open Sans" font-size="40" font-weight="normal">
+                        <tspan x="25.1289062" y="43">42</tspan>
+                    </text>
+                    <text id="28" font-family="OpenSans, Open Sans" font-size="20" font-weight="normal">
+                        <tspan x="78.0644531" y="29">28</tspan>
+                    </text>
+                </g>
+                <text id="Current-Balance" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold">
+                    <tspan x="0.265625" y="17">Current Balance</tspan>
+                </text>
+            </g>
+            <path d="M21.5,87.5 L353.5,87.5" id="Line" stroke="#E7E7E7" stroke-linecap="square"></path>
+            <g id="Group-4" transform="translate(44.000000, 583.000000)">
+                <rect id="Rectangle-6" fill="#CBCBCB" x="0" y="0" width="288" height="34" rx="5"></rect>
+                <text id="Continue" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="110.554688" y="23">Continue</tspan>
+                </text>
+            </g>
+            <g id="Group-9" transform="translate(45.000000, 249.000000)">
+                <g id="Group-5">
+                    <text id="Pay-current-balance" font-family="Raleway-Regular, Raleway" font-size="16" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="41" y="18">Pay current balance</tspan>
+                    </text>
+                    <g id="Rectangle">
+                        <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#CBCBCB" stroke-width="3" x="1.5" y="1.5" width="22" height="22" rx="5"></rect>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(0.000000, 60.000000)">
+                    <text id="Pay-minimum-balance" font-family="Raleway-Regular, Raleway" font-size="16" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="41" y="18">Pay minimum balance of </tspan>
+                        <tspan x="228.552" y="18" font-family="Raleway-Bold, Raleway" font-weight="bold">$25</tspan>
+                    </text>
+                    <g id="Rectangle">
+                        <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#CBCBCB" stroke-width="3" x="1.5" y="1.5" width="22" height="22" rx="5"></rect>
+                    </g>
+                </g>
+                <g id="Group-3" transform="translate(0.000000, 121.000000)">
+                    <text id="Pay-other-amount" font-family="Raleway-Regular, Raleway" font-size="16" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="41" y="18">Pay other amount</tspan>
+                    </text>
+                    <g id="Rectangle">
+                        <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#CBCBCB" stroke-width="3" x="1.5" y="1.5" width="22" height="22" rx="5"></rect>
+                    </g>
+                    <g id="Rectangle-11">
+                        <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#CBCBCB" stroke-width="1" x="41.5" y="31.5" width="76" height="25" rx="2"></rect>
+                    </g>
+                    <text id="$" font-family="Raleway-Bold, Raleway" font-size="16" font-weight="bold" fill="#4A4A4A">
+                        <tspan x="51" y="50">$</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(202.000000, 5.000000)">
+                    <circle id="Oval-4" fill="#D8D8D8" cx="8" cy="8" r="8"></circle>
+                    <path d="M7,3.76943712 C7,3.17104056 7.33333,2.87184676 8,2.87184676 C8.66667,2.87184676 9,3.17104056 9,3.76943712 C9,4.05457911 8.9166675,4.27646444 8.75,4.43509977 C8.5833325,4.59373511 8.333335,4.67305158 8,4.67305158 C7.33333,4.67305158 7,4.37184977 7,3.76943712 Z M8.91566265,12.2453407 L7.07831325,12.2453407 L7.07831325,5.51040098 L8.91566265,5.51040098 L8.91566265,12.2453407 Z" id="i" fill="#4A4A4A"></path>
+                </g>
+                <g id="Group" transform="translate(269.000000, 65.000000)">
+                    <circle id="Oval-4" fill="#D8D8D8" cx="8" cy="8" r="8"></circle>
+                    <path d="M7,3.76943712 C7,3.17104056 7.33333,2.87184676 8,2.87184676 C8.66667,2.87184676 9,3.17104056 9,3.76943712 C9,4.05457911 8.9166675,4.27646444 8.75,4.43509977 C8.5833325,4.59373511 8.333335,4.67305158 8,4.67305158 C7.33333,4.67305158 7,4.37184977 7,3.76943712 Z M8.91566265,12.2453407 L7.07831325,12.2453407 L7.07831325,5.51040098 L8.91566265,5.51040098 L8.91566265,12.2453407 Z" id="i" fill="#4A4A4A"></path>
+                </g>
+                <g id="Group" transform="translate(186.000000, 125.000000)">
+                    <circle id="Oval-4" fill="#D8D8D8" cx="8" cy="8" r="8"></circle>
+                    <path d="M7,3.76943712 C7,3.17104056 7.33333,2.87184676 8,2.87184676 C8.66667,2.87184676 9,3.17104056 9,3.76943712 C9,4.05457911 8.9166675,4.27646444 8.75,4.43509977 C8.5833325,4.59373511 8.333335,4.67305158 8,4.67305158 C7.33333,4.67305158 7,4.37184977 7,3.76943712 Z M8.91566265,12.2453407 L7.07831325,12.2453407 L7.07831325,5.51040098 L8.91566265,5.51040098 L8.91566265,12.2453407 Z" id="i" fill="#4A4A4A"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

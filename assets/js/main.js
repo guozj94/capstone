@@ -134,6 +134,21 @@
 			catch(err) {
 				console.log(err);
 			};
+			try {
+				var $two = $("#two");
+			// $window.on("scroll", function() {
+			// 	console.log($one.offset(), window.innerHeight, window.pageYOffset);
+			// });
+			
+				$window.on("scroll", function() {
+					if(window.pageYOffset + 200 > $two.offset().top) {
+						$two.find("div").removeClass("nodisplay");
+					}
+				});
+			}
+			catch(err) {
+				console.log(err);
+			};
 			
 			try {
 				var $allppl = $(".people");

@@ -79,7 +79,7 @@ p {
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
 	background-repeat: repeat, no-repeat;
-	height: 60vh;
+	height: 70vh;
 	width: 100%;
 	position: relative;
 	top: 0;
@@ -102,10 +102,20 @@ p {
 }
 #intro-process {
 	width: 90%;
-	margin: 3vh auto;
+	margin: 3em auto 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
-#intro-process img {
+#intro-process div {
 	width: 30%;
+}
+#intro-process p {
+	color: black;
+	font-size: 14px;
+	padding: 1em;
+	line-height: 160%;
+
 }
 .gallery-tile {
 	position: absolute;
@@ -134,6 +144,28 @@ p {
 .gallery article:hover {
 	cursor: pointer;
 }
+.seven-half-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.seven-half-left {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	-webkit-box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+    box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+}
+/*.seven-half-left img {
+	-webkit-box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+-moz-box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+}*/
+.seven-half-right {
+	text-align: left;
+	margin-left: 1.5em;
+}
 #three {
 	background: url("../../images/process-4.JPG");
 	background-size: cover;
@@ -150,6 +182,13 @@ p {
 }
 #seven {
 	background: url("../../images/process-7.JPG");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+#eight {
+	background: url("../../images/process-8.JPG");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom center;
@@ -177,12 +216,50 @@ p {
 	/*process page*/
 	#intro {
     	background: none;
+    	padding-left: 0;
+    	padding-right: 0;
 	}
 	.intro-bg {
-		display: none;
+		height: 70vh;
+		width: 100%;
 	}
-	#intro .content header h1,p {
-		color: black;
+	#intro-process {
+		margin: 3em auto 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#intro-process div {
+		width: 100%;
+	}	
+	.seven-half-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.seven-half-left {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		box-shadow: none;
+		margin-bottom: 2em;
+	} 
+	.seven-half-left img {
+		-webkit-box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+        -moz-box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
+        box-shadow: 0px 2px 21px -4px rgba(0,0,0,0.73);
 	}
 
+
+@media screen and (max-width: 1140px) {
+	.seven-half-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 2em;
+	}
 }

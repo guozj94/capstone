@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>reward1-c</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="22" y="325" width="323" height="188" rx="5"></rect>
+        <filter x="-2.2%" y="-2.7%" width="104.3%" height="107.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="26" y="116" width="323" height="188" rx="5"></rect>
+        <filter x="-2.2%" y="-2.7%" width="104.3%" height="107.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="earn-points" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="reward1-c">
+            <rect id="Rectangle-2" fill="#E7E7E7" x="0" y="0" width="375" height="43"></rect>
+            <g id="Group-2" transform="translate(332.000000, 12.000000)">
+                <path d="M0.5,2.5 L22.5,2.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                <path d="M0.5,9.5 L22.5,9.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                <path d="M0.5,16.5 L22.5,16.5" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                <circle id="Oval-2" fill="#9B9B9B" cx="6.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval-2" fill="#9B9B9B" cx="6.5" cy="16.5" r="2.5"></circle>
+                <circle id="Oval-2" fill="#9B9B9B" cx="16.5" cy="9.5" r="2.5"></circle>
+            </g>
+            <text id="Ohana" font-family="WildYouth-Regular, Wild Youth" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="152.384" y="31">Ohana</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#E7E7E7" x="0" y="597" width="375" height="70"></rect>
+            <text id="Balance" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                <tspan x="32.015625" y="651">Balance</tspan>
+            </text>
+            <text id="Rewards" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                <tspan x="208.432617" y="651">Rewards</tspan>
+            </text>
+            <text id="Spendings" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                <tspan x="291.955078" y="651">Spendings</tspan>
+            </text>
+            <circle id="Oval" fill="#D8D8D8" cx="54" cy="624" r="14"></circle>
+            <circle id="Oval" fill="#D8D8D8" cx="232" cy="623" r="14"></circle>
+            <circle id="Oval" fill="#D8D8D8" cx="321" cy="623" r="14"></circle>
+            <text id="Achievement" font-family="OpenSans, Open Sans" font-size="24" font-weight="normal" fill="#4A4A4A">
+                <tspan x="26" y="93">Achievement</tspan>
+            </text>
+            <text id="Achievement" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="104.013672" y="651">Achievement</tspan>
+            </text>
+            <path d="M104.5,658 L182.006451,658" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square"></path>
+            <circle id="Oval" fill="#9B9B9B" cx="143" cy="623" r="14"></circle>
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Group-3" transform="translate(143.000000, 366.000000)">
+                <circle id="Oval-3" fill="#CBCBCB" cx="22" cy="22" r="22"></circle>
+                <text id="$" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="13.9379883" y="32">$</tspan>
+                </text>
+            </g>
+            <text id="30" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" fill="#4A4A4A">
+                <tspan x="197.375977" y="400">30</tspan>
+            </text>
+            <text id="Coins" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" fill="#4A4A4A">
+                <tspan x="50" y="383">Coins</tspan>
+            </text>
+            <g id="Group-11" transform="translate(53.000000, 146.000000)">
+                <text id="Level" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="0" y="17">Level</tspan>
+                </text>
+                <g id="Group-9" transform="translate(64.000000, 0.000000)">
+                    <g id="Group-7">
+                        <rect id="Rectangle-8" fill="#E7E7E7" x="61.2998726" y="27" width="143.700127" height="15" rx="7.5"></rect>
+                        <rect id="Rectangle-8" fill="#CBCBCB" x="61.2998726" y="27" width="71.8500637" height="15" rx="7.5"></rect>
+                        <text id="100/200" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#4A4A4A">
+                            <tspan x="109.494" y="38">100/200</tspan>
+                        </text>
+                        <g id="Group-8">
+                            <polygon id="Fill-2" fill="#CBCBCB" points="36.5007753 4.95541487 25.2192343 0 18.9982866 10.6516811 6.97039728 13.2949144 8.17106707 25.5759504 0 34.8029173 8.17106707 44.0309204 6.96988041 56.3119564 18.9982866 58.9557078 25.2187175 69.6084251 36.5007753 64.6519741 47.7817994 69.6084251 54.0027472 58.9562259 66.0301196 56.3119564 64.8284161 44.0309204 73 34.8034354 73 34.8023993 64.8284161 25.5764685 66.0306364 13.2959506 54.0027472 10.6521992 47.7817994 0"></polygon>
+                            <g id="Group-6" transform="translate(17.000000, 7.000000)" fill="#4A4A4A">
+                                <text id="2" font-family="OpenSans-Bold, Open Sans" font-size="36" font-weight="bold">
+                                    <tspan x="18.2255859" y="38">2</tspan>
+                                </text>
+                                <text id="lvl." font-family="OpenSans, Open Sans" font-size="12" font-weight="normal">
+                                    <tspan x="0" y="38">lvl.</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <text id="Last-collected:" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="52" y="462">Last        collected:</tspan>
+            </text>
+            <g id="Group-5" transform="translate(52.000000, 473.000000)">
+                <text id="Jun-29,-2017" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="194" y="11">Jun 29, 2017</tspan>
+                </text>
+                <text id="Payment:" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="11">Payment:</tspan>
+                </text>
+                <g id="Group-10" transform="translate(75.000000, 0.000000)">
+                    <text id="10" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="17.26" y="11">10</tspan>
+                    </text>
+                    <g id="Group-3" transform="translate(0.000000, 1.000000)">
+                        <circle id="Oval-3" fill="#CBCBCB" cx="6.5" cy="6.5" r="6.5"></circle>
+                        <text id="$" font-family="OpenSans-Bold, Open Sans" font-size="9" font-weight="bold" fill="#4A4A4A">
+                            <tspan x="4.07912376" y="10">$</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-4" transform="translate(66.000000, 5.000000)" stroke="#979797" stroke-linecap="square">
+                    <path d="M2.5,0.5 L2.5,4.5" id="Line"></path>
+                    <path d="M4.5,2.5 L0.5,2.5" id="Line"></path>
+                </g>
+            </g>
+            <g id="Group-3" transform="translate(83.000000, 452.000000)">
+                <circle id="Oval-3" fill="#CBCBCB" cx="6.5" cy="6.5" r="6.5"></circle>
+                <text id="$" font-family="OpenSans-Bold, Open Sans" font-size="9" font-weight="bold" fill="#4A4A4A">
+                    <tspan x="4.07912376" y="10">$</tspan>
+                </text>
+            </g>
+            <text id="Last-collected:" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#4A4A4A">
+                <tspan x="57" y="254">Last        collected:</tspan>
+            </text>
+            <g id="Group-5" transform="translate(57.000000, 265.000000)">
+                <text id="Jun-29,-2017" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="194" y="11">Jun 29, 2017</tspan>
+                </text>
+                <text id="Payment:" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="11">Payment:</tspan>
+                </text>
+                <g id="Group-10" transform="translate(76.000000, 0.000000)">
+                    <text id="10" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#4A4A4A">
+                        <tspan x="16.26" y="11">10</tspan>
+                    </text>
+                    <polygon id="Fill-2" fill="#CBCBCB" points="7.00014869 1.92546833 4.83656549 1 3.64350701 2.98929733 1.33678852 3.48294495 1.56705396 5.77653897 0 7.49975811 1.56705396 9.22317076 1.33668939 11.5167648 3.64350701 12.0105092 4.83646637 14 7.00014869 13.0743382 9.16363276 14 10.3566912 12.0106059 12.6633106 11.5167648 12.4328469 9.22317076 14 7.49985487 14 7.49966136 12.4328469 5.77663573 12.6634097 3.48313846 10.3566912 2.98939409 9.16363276 1"></polygon>
+                </g>
+                <g id="Group-4" transform="translate(66.000000, 5.000000)" stroke="#979797" stroke-linecap="square">
+                    <path d="M2.5,0.5 L2.5,4.5" id="Line"></path>
+                    <path d="M4.5,2.5 L0.5,2.5" id="Line"></path>
+                </g>
+            </g>
+            <polygon id="Fill-2" fill="#CBCBCB" points="94.0001487 244.925468 91.8365655 244 90.643507 245.989297 88.3367885 246.482945 88.567054 248.776539 87 250.499758 88.567054 252.223171 88.3366894 254.516765 90.643507 255.010509 91.8364664 257 94.0001487 256.074338 96.1636328 257 97.3566912 255.010606 99.6633106 254.516765 99.4328469 252.223171 101 250.499855 101 250.499661 99.4328469 248.776636 99.6634097 246.483138 97.3566912 245.989394 96.1636328 244"></polygon>
+        </g>
+    </g>
+</svg>

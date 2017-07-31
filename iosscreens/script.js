@@ -38,21 +38,53 @@ function addClickThroughListeners(allTeenScreens, allMomScreens) {
 		allTeenScreens[PAYMENT4_TEEN].classList.remove("nodisplay");
 		//document.getElementById("teen-btmbar").classList.remove("nodisplay");
 	});
+  document.getElementById("to-payment4-enter").addEventListener("click", function() {
+    document.getElementById("payment4-enter").classList.remove("nodisplay");
+    document.getElementById("payment4-retail").classList.add("nodisplay");
+  });
+  document.getElementById("to-payment4-retail").addEventListener("click", function() {
+    document.getElementById("payment4-retail").classList.remove("nodisplay");
+    document.getElementById("payment4-enter").classList.add("nodisplay");
+  });
 	document.getElementById("payment4-box").addEventListener("click", function() {
 		let quizElement = document.getElementById("statement-quiz");
 		document.getElementById("teen-statusbar-hover").classList.remove("nodisplay");
 		document.getElementById("teen-btmbar").classList.add("nodisplay");
 		document.getElementById("payment4-hover").classList.remove("nodisplay");
 		document.getElementById("payment4").style.overflow = "hidden";
-		quizElement.classList.remove("nodisplay");
+		quizElement.classList.remove("slideOutDown");
+    quizElement.classList.remove("nodisplay");
+    quizElement.classList.add("slideInUp");
 		let quiz = new QuizDrag(quizElement, [], null);
 	});
 	document.getElementById("to-payment5").addEventListener("click", function() {
 		allTeenScreens[PAYMENT4_TEEN].classList.add("nodisplay");
 		allTeenScreens[PAYMENT5_TEEN].classList.remove("nodisplay");
     let dragElement = document.getElementById("payment5-slider");
-    let drag = new PaymentSlider(dragElement, 15, 47.78);
+    let drag = new PaymentSlider(dragElement, 15, 44.78);
 	});
+  //APR Quiz
+  document.getElementById("payment5-box").addEventListener("click", function() {
+    let quizElement = document.getElementById("payment5-quiz");
+    document.getElementById("teen-statusbar-hover").classList.remove("nodisplay");
+    document.getElementById("teen-btmbar").classList.add("nodisplay");
+    document.getElementById("payment5-hover").classList.remove("nodisplay");
+    quizElement.classList.remove("nodisplay");
+    //document.getElementById("payment4").style.overflow = "hidden";
+
+    quizElement.classList.remove("slideOutDown");
+    quizElement.classList.remove("nodisplay");
+    quizElement.classList.add("slideInUp");
+  });
+  // APR quiz done
+  document.getElementById("payment5-closequiz").addEventListener("click", function() {
+    let quizElement = document.getElementById("payment5-quiz");
+    quizElement.classList.remove("slideInUp");
+    quizElement.classList.add("slideOutDown");
+    setTimeout(() => {quizElement.classList.add("nodisplay");}, 1000);
+    document.getElementById("teen-statusbar-hover").classList.add("nodisplay");
+    document.getElementById("payment5-hover").classList.add("nodisplay");    
+  });
   document.getElementById("to-payment6").addEventListener("click", function() {
     allTeenScreens[PAYMENT5_TEEN].classList.add("nodisplay");
     allTeenScreens[PAYMENT6_TEEN].classList.remove("nodisplay");
@@ -97,9 +129,9 @@ function payment6() {
 function payment7() {
   let amount = document.getElementById("payment5-amount").value;
   console.log(amount);
-  document.getElementById("payment7-amount1").innerHTML = '$' + amount.toFixed(2);
-  document.getElementById("payment7-amount2").innerHTML = '$' + (47.78 - amount).toFixed(2);
-  if(amount == "47.78") {
+  document.getElementById("payment7-amount1").innerHTML = '$' + parseFloat(amount).toFixed(2);
+  document.getElementById("payment7-amount2").innerHTML = '$' + (44.78 - parseFloat(amount)).toFixed(2);
+  if(amount == "44.78") {
     document.getElementById("payment7-reward").classList.remove("nodisplay");
   }
 }
@@ -214,7 +246,7 @@ class QuizDrag {
   	if(this.done.dataset.clickable == "yes") {
   		this.self.classList.remove("slideInUp");
   		this.self.classList.add("slideOutDown");
-  		//this.self.classList.add("nodisplay");
+  		setTimeout(() => {this.self.classList.add("nodisplay");}, 1000);
   		document.getElementById("teen-statusbar-hover").classList.add("nodisplay");
 		  document.getElementById("payment4-hover").classList.add("nodisplay");
 		  document.getElementById("payment4").style.overflow = "scroll";
@@ -248,10 +280,10 @@ class QuizDrag {
   }
   //handle event.client == {0, 0}
   handleDrag(event) {
-    if(event.clientX == 0 || event.clientY == 0) return;
+    if(event.clientX <= 0 || event.clientY <= 0) return;
     this.savePosition[0] = event.clientX;
     this.savePosition[1] = event.clientY;
-    //console.log(event.clientX, event.clientY);
+    console.log(event.clientX, event.clientY);
   }
   handleDragEnd(event) {
     event.preventDefault();
@@ -264,7 +296,7 @@ class QuizDrag {
          this.answersPositions[i].top < this.savePosition[1] &&
          this.answersPositions[i].top + 38 > this.savePosition[1]) {
         //change answer attribute
-    	console.log("in");
+    	  console.log("in");
         this.answers[i].src = event.target.src;
         this.answers[i].dataset.is_answer = event.target.dataset.is_answer;
 
@@ -303,4 +335,7 @@ $(document).ready(() => {
 	let currentTeenPage = PAYMENT1_TEEN;
 	addClickThroughListeners(allTeenScreens, allMomScreens);
   floatLootbox();
+  window.addEventListener("click", function(event) {
+    console.log(event.clientX, event.clientY);
+  })
 });

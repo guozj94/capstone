@@ -100,7 +100,13 @@ p {
 	font-size: 14px;
 	font-weight: 300;
 }
-
+#two {
+	background: url("../../images/ohana-journey.svg");
+	background-size: 90% auto;
+	background-attachment: fixed;
+	background-position: 50% 80%;
+	background-repeat: no-repeat;
+}
 /*begin product page*/
 
 @media screen and (max-width: 768px) {

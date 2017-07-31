@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="150px" height="48px" viewBox="0 0 150 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 6</title>
+<svg width="140px" height="49px" viewBox="0 0 140 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 31</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-6">
-            <g id="Group-28">
-                <rect id="Rectangle-15" fill="#FFC049" x="0" y="0" width="150" height="48.4644513" rx="15"></rect>
-                <text id="Current-Purchase" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#FFFFFF">
-                    <tspan x="27" y="17">Current Purchase</tspan>
-                </text>
-                <text id="$42.28" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#FFFFFF">
-                    <tspan x="50" y="39">$42.28</tspan>
-                </text>
+    <g id="Make-Payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="payment10-c-quiz-a" transform="translate(-118.000000, -477.000000)">
+            <g id="Group-34" transform="translate(23.000000, 123.000000)">
+                <g id="Group-35">
+                    <g id="Group-26" transform="translate(6.000000, 278.000000)">
+                        <g id="Group-31" transform="translate(89.000000, 76.000000)">
+                            <rect id="Rectangle-15" fill="#FFC049" x="0" y="0" width="140" height="48.4644513" rx="15"></rect>
+                            <text id="Previous-Balance" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="22" y="17">Previous Balance</tspan>
+                            </text>
+                            <text id="$2.62" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="50" y="39">$2.62</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
             </g>
         </g>
     </g>
