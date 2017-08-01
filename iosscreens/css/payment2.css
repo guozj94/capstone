@@ -47,7 +47,7 @@
 }
 .mom-loading {
 	position: absolute;
-	bottom: 271px;
+	bottom: 278px;
 	left: 164px;
 	z-index: 10;
 	-webkit-animation: rotation 1.5s infinite ease-in-out;

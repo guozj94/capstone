@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="28px" height="35px" viewBox="0 0 28 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard Copy 2</title>
+<svg width="27px" height="28px" viewBox="0 0 27 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>increasing-stocks-graphic</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Make-Payment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-2" fill="#FFC049">
-            <g id="Group-12" transform="translate(2.000000, 10.000000)">
-                <rect id="Rectangle" x="0" y="0" width="23.8193143" height="4.98946354" rx="2.49473177"></rect>
-                <rect id="Rectangle" x="0" y="9.22629297" width="23.8193143" height="4.98946354" rx="2.49473177"></rect>
+        <g id="payment-11cb" transform="translate(-231.000000, -487.000000)" fill="#FFC049">
+            <g id="increasing-stocks-graphic" transform="translate(231.000000, 487.000000)">
+                <path d="M26.3299999,13.3010294 L26.3299999,27.7329542 L20.7508716,27.7329542 L20.7508716,13.3010294 L26.3299999,13.3010294 Z M16.2419665,13.2997222 L16.2419665,27.731647 L10.664032,27.731647 L10.664032,13.2997222 L16.2419665,13.2997222 Z M5.57733767,13.3001579 L5.57733767,27.7320828 L0,27.7320828 L0,13.3001579 L5.57733767,13.3001579 Z" id="Shape" fill-rule="nonzero"></path>
+                <path d="M19.1882191,4.00038332 L1.5,4.00038332 L1.5,4.00038332 C0.671572875,4.00038332 -1.01453063e-16,4.67195619 0,5.50038332 C1.01453063e-16,6.32881044 0.671572875,7.00038332 1.5,7.00038332 L1.5,7.00038332 L19.1196296,7.00038332 L17.5861181,8.29837454 C17.439868,8.42216321 17.3198386,8.5739382 17.2330847,8.74477873 C16.8735912,9.45271308 17.1560583,10.3180343 17.8639926,10.6775279 C19.0166687,11.262864 20.414646,11.0442734 21.3336233,10.1350092 L26,5.51795363 L21.2910455,0.899624121 C20.3847972,0.0108167351 19.0330432,-0.245980527 17.8639926,0.248575325 L17.8639926,0.248575325 C17.6843051,0.324590452 17.5234671,0.439074374 17.3928049,0.583965056 C16.8991292,1.13139981 16.9427095,1.97538662 17.4901443,2.46906235 L17.4901443,2.46906235 L19.1882191,4.00038332 Z" id="Combined-Shape"></path>
             </g>
         </g>
     </g>

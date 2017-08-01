@@ -135,13 +135,13 @@
 				$(this).find("img").removeClass("tile-animation");
 			});
 
-			$('.process-slider').slick({
-				dots: true,
-				infinite: true,
-				autoplay: true,
-				autoplaySpeed: 4000,
-				mobileFirst: true
-			});
+			// $('.process-slider').slick({
+			// 	dots: true,
+			// 	infinite: true,
+			// 	autoplay: true,
+			// 	autoplaySpeed: 4000,
+			// 	mobileFirst: true
+			// });
 			// try {
 			// 	var $one = $("#one");
 			// // $window.on("scroll", function() {

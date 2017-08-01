@@ -149,6 +149,21 @@
 			catch(err) {
 				console.log(err);
 			};
+			try {
+				var $three = $("#three");
+			// $window.on("scroll", function() {
+			// 	console.log($one.offset(), window.innerHeight, window.pageYOffset);
+			// });
+			
+				$window.on("scroll", function() {
+					if(window.pageYOffset + 200 > $three.offset().top) {
+						$three.find("div").removeClass("nodisplay");
+					}
+				});
+			}
+			catch(err) {
+				console.log(err);
+			};
 			
 			try {
 				var $allppl = $(".people");
