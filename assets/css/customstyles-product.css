@@ -214,7 +214,17 @@ p {
 	.phone-container iframe {
 		transform: scale(0.8, 0.8);
 	}
-
+}
+@media screen and (max-width: 400px) {
+	.navbar a {
+		color: black;
+		padding: 0;
+		margin-left: 15px;
+		text-align: center;
+		font-weight: 300;
+		text-decoration: underline;
+		font-size: 14px;
+	}
 }
 
 
