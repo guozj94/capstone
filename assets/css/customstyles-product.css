@@ -9,9 +9,15 @@ h1 {
     font-family: 'Lato', Helvetica, Helvetica Neue, Arial, sans-serif;
     font-weight: 700;
     color: black;
+    padding-left: 34px;
+
 }
 p {
 	color: black;
+	line-height: 180%;
+	margin-bottom: 50px;
+	padding-left: 34px;
+	padding-right: 30px;
 }
 .nodisplay {
 	display: none;
@@ -95,6 +101,7 @@ p {
 }
 .phone-description h4 {
 	font-weight: 700;
+	display: inline;
 }
 .phone-description p {
 	font-size: 16px;
@@ -106,10 +113,6 @@ p {
 }
 .phone-container iframe {
 	transform: scale(0.9, 0.9);
-}
-.phone-description img {
-	display: block;
-	margin-bottom: 5px;
 }
 .main .button.style2 {
     background-image: url(images/black-arrow.svg);
@@ -130,6 +133,7 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 4em;
+	background-color: #F4F6F7;
 }
 .phone-container-style2 {
 	width: 50%;
@@ -156,6 +160,8 @@ p {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 4em;
+	background-color: #F4F6F7;
+
 }
 #five {
 	/*background: url("../../images/process-2.JPG");
@@ -225,6 +231,16 @@ p {
 		text-decoration: underline;
 		font-size: 14px;
 	}
+}
+
+.subheading {
+	padding-bottom: 10px;
+}
+
+.subheading img {
+	display: inline;
+	margin-bottom: -5px;
+	padding-right: 5px;
 }
 
 
