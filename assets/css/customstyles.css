@@ -136,6 +136,9 @@ p {
 	margin-left: 40vh;
 	margin-right: 40vh;
 }
+.buttonanim {
+	animation: downbutton 2s infinite ease-in-out;
+}
 
 /*begin product page*/
 
@@ -223,4 +226,15 @@ p {
 		margin-bottom: 4em;
 	}
 	/*process page*/
+}
+@keyframes downbutton {
+	0% {
+		background-position: 50% 0%
+	}
+	75% {
+		background-position: 50% 90%
+	}
+	100% {
+		background-position: 50% 0%
+	}
 }
