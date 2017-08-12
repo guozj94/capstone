@@ -74,8 +74,8 @@ p {
     display: block;
 }
 .intro-bg {
-	background: url("images/overlay.png"), url("../../images/process-top.JPG");
-	background-size: cover;
+	background: url("images/white.jpg"), url("../../images/process-top.JPG");
+	background-size: cover, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
 	background-repeat: repeat, no-repeat;

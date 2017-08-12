@@ -104,6 +104,7 @@
 					windowMargin: 50,
 					usePopupNav: true
 				});
+				$(".bxslider").bxSlider();
 
 				// Hack: Adjust margins when 'small' activates.
 					skel
