@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="72px" height="67px" viewBox="0 0 72 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
+<svg width="55px" height="20px" viewBox="0 0 55 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>black-arrow</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" stroke="#000000">
-            <path d="M0.5,25.5 L36,46" id="Path"></path>
-            <path d="M36.5,25.5 L72,46" id="Path-Copy" transform="translate(54.000000, 35.500000) scale(-1, 1) translate(-54.000000, -35.500000) "></path>
+    <g id="road-map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-6.000000, -11.000000)" fill="#9B9B9B">
+            <path d="M8.45995357,11.4726385 L33.1693176,25.2395629 L57.878667,11.4726391 L57.878667,11.4726391 C58.6769525,11.0278708 59.6846467,11.3144531 60.1294151,12.1127386 C60.2666084,12.3589779 60.3386203,12.6361838 60.3386203,12.9180629 L60.3386203,12.9180629 L60.3386203,12.9180629 C60.3386203,14.6555311 59.394699,16.2558253 57.8740793,17.0963675 L33.1693176,30.7522449 L8.46454133,17.096367 L8.46454133,17.096367 C6.94392144,16.2558251 6,14.655531 6,12.9180629 L6,12.9180629 L6,12.9180629 C6,12.0042363 6.74080283,11.2634335 7.65462942,11.2634335 C7.93650842,11.2634335 8.21371428,11.3354453 8.45995357,11.4726385 Z" id="black-arrow"></path>
         </g>
     </g>
 </svg>
